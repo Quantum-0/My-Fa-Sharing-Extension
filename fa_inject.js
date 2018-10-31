@@ -9,7 +9,7 @@
 		e.preventDefault();
 		var me = document.getElementById('my-username').innerText.substr(1);
 		var title = document.getElementsByClassName("cat")[0].innerText;
-		var artist = document.getElementsByClassName("cat")[2].getElementsByTagName('a')[0].innerText;
+		var artist = document.getElementsByClassName("cat")[1].getElementsByTagName('a')[0].innerText;
 		var url = document.location.href.slice(0, -1).split('/')[4];
 		var xmlHttp = new XMLHttpRequest();
 		xmlHttp.onreadystatechange = function()

@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+
+	"name": "Кнопка Share in KKP для FA",
+	"description": "Позволяет отправлять ссылку на арт в конфу ККП.",
+	"version": "1.0",
+
+	"content_scripts":
+	[
+		{
+			"matches": ["http://www.furaffinity.net/view/*","https://www.furaffinity.net/view/*","http://furaffinity.net/view/*","https://furaffinity.net/view/*"],
+			"js": ["fa_inject.js"]
+		}
+	]
+}

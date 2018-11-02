@@ -3,7 +3,7 @@
 	
 	var st = document.createElement('b');
 	// KKP - name of dialog in Vk
-    st.innerHTML = ' | <a href="#">Share in KKP</a> &nbsp';
+    st.innerHTML = ' | <a href="#">Share with KKP</a> &nbsp';
     st.className = 'sendKKP';
 	st.onclick=function(e){
 		e.preventDefault();
